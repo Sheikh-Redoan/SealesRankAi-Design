@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --font-Manrope: "Manrope", sans-serif; 
+    --font-Plus_Jakarta_Sans: "Plus_Jakarta_Sans", sans-serif; 
+    --font-Poppins: "Poppins", sans-serif; 
+    --font-Questrial: "Questrial", sans-serif; 
+    --font-Lato: "Lato", sans-serif; 
+    --font-Inter: "Inter", sans-serif; 
+  }
