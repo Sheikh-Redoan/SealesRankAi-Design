@@ -2,7 +2,7 @@
 
 A modern web interface for SalesRank AI built with React, Vite, and Tailwind CSS, featuring animated components and responsive design.
 
-![Project Screenshot](https://i.ibb.co.com/B2HF61Fj/AI-Coach.jpg)
+![Project Screenshot](./src/assets/AI%20Coach.jpg)
 
 ## Features
 
