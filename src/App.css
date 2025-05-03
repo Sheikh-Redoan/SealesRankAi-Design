@@ -7,4 +7,6 @@
     --font-Questrial: "Questrial", sans-serif; 
     --font-Lato: "Lato", sans-serif; 
     --font-Inter: "Inter", sans-serif; 
+    --breakpoint-mobile: "640px";
+    --breakpoint-tablet: "768px";
   }

@@ -17,7 +17,7 @@ import footerlogo from '../../assets/FooterLogo.png';
 
 const Footer = () => {
   return (
-    <footer className="pt-[32px] pb-[90px] bg-white">
+    <footer className="pt-[32px] pb-[90px] bg-white relative">
       <Ready />
       <Container>
         <div className="w-full flex flex-col md:flex-row justify-between items-start gap-10 max-w-[1440px]">

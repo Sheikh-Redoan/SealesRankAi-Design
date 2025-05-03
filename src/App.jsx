@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
@@ -9,11 +8,9 @@ import Review from './components/Review/Review'
 import Footer from './components/Footer/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <Navbar className={'absolute top-0 w-full'}></Navbar>
+    <Navbar className={'absolute max-md:fixed top-0 w-full max-md:bg-white z-[9999]'}></Navbar>
     <Banner></Banner>
      <AiCoach></AiCoach>
      <Courses></Courses>

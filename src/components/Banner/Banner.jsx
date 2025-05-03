@@ -6,7 +6,8 @@ import bannerIcon1 from "../../assets/bannerIcon1.png";
 import bannerIcon2 from "../../assets/bannerIcon2.png";
 const Banner = () => {
   return (
-    <div className="pt-[208px] pb-[85px]">
+    <div className="pt-[208px] pb-[85px] relative">
+      <div class="w-[655px] h-[655px] absolute top-[-220px] left-[-245px] bg-gradient-to-l from-pink-400 to-blue-400 rounded-[500px] blur-[100px] opacity-[.5] z-[-1] "></div>
       <Container>
         <div className="flex justify-between flex-wrap items-start">
           <div className="">
@@ -23,7 +24,7 @@ const Banner = () => {
           </div>
           <div className="relative">
             <img src={banner} alt="Banner" />
-            <div class="w-[467px] absolute top-[391px] left-[-200px] bg-white rounded-3xl shadow-[-9px_11px_38.099998474121094px_0px_rgba(0,0,0,0.05)] px-[30px] py-[50px] flex flex-col justify-start items-start">
+            <div class="w-[467px] absolute top-[391px] left-[-200px] bg-white rounded-3xl shadow-[-9px_11px_38.099998474121094px_0px_rgba(0,0,0,0.05)] px-[30px] py-[50px] flex flex-col justify-start items-start max-md:left-0 max-md:top-[300px] max-md:w-full">
               <div className="flex justify-between items-center w-full">
                 <h3 className=" justify-start text-blue-950 text-5xl font-semibold font-Manrope">
                   721+
